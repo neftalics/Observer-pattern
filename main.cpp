@@ -1,9 +1,9 @@
 
 #include "ClassWeather.hpp"
-
+using namespace std;
 int main()
 { 
-    WeatherStation WS; 
+    WeatherStation WS = WeatherStation();
 
     Forecast Forecast(WS); 
     Current Current(WS); 

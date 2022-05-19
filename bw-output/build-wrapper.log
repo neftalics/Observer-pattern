@@ -1,0 +1,331 @@
+Tue May 17 21:53:33 2022: build-wrapper, version 6.33 (macosx-x86)
+Tue May 17 21:53:33 2022: System name: Darwin Nodename: MacBook-Air-de-Neftali.local Release: 20.6.0 Version: Darwin Kernel Version 20.6.0: Tue Feb 22 21:10:41 PST 2022; root:xnu-7195.141.26~1/RELEASE_X86_64 Machine: x86_64
+Tue May 17 21:53:33 2022: socket path: /tmp/build-wrapper-socket.l7Oof5
+Tue May 17 21:53:33 2022: dynamic library found: /Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib
+Tue May 17 21:53:33 2022: cwd: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: command executed as: <build-wrapper-macosx-x86 --out-dir bw-output>
+Tue May 17 21:53:33 2022: out-dir absolute path: </Users/Neftali/Desktop/sofware/Observer_Pattern/bw-output>
+Tue May 17 21:53:33 2022: command line received: <g++ -std=c++17 main.cpp -o main>
+Tue May 17 21:53:33 2022: env 0: <__CFBundleIdentifier=com.apple.Terminal>
+Tue May 17 21:53:33 2022: env 1: <TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/>
+Tue May 17 21:53:33 2022: env 2: <XPC_FLAGS=0x0>
+Tue May 17 21:53:33 2022: env 3: <LaunchInstanceID=2F21557A-D434-479D-AF49-73960B0BAB93>
+Tue May 17 21:53:33 2022: env 4: <TERM=xterm-256color>
+Tue May 17 21:53:33 2022: env 5: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.JuagQw0et9/Listeners>
+Tue May 17 21:53:33 2022: env 6: <SECURITYSESSIONID=186a6>
+Tue May 17 21:53:33 2022: env 7: <XPC_SERVICE_NAME=0>
+Tue May 17 21:53:33 2022: env 8: <TERM_PROGRAM=Apple_Terminal>
+Tue May 17 21:53:33 2022: env 9: <TERM_PROGRAM_VERSION=440>
+Tue May 17 21:53:33 2022: env 10: <TERM_SESSION_ID=B777B346-4438-442B-A539-DEC17C8FF178>
+Tue May 17 21:53:33 2022: env 11: <SHELL=/bin/zsh>
+Tue May 17 21:53:33 2022: env 12: <HOME=/Users/Neftali>
+Tue May 17 21:53:33 2022: env 13: <LOGNAME=Neftali>
+Tue May 17 21:53:33 2022: env 14: <USER=Neftali>
+Tue May 17 21:53:33 2022: env 15: <PATH=/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx/bin:/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx:/Users/Neftali/Downloads/build-wrapper-macosx-x86:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin>
+Tue May 17 21:53:33 2022: env 16: <SHLVL=1>
+Tue May 17 21:53:33 2022: env 17: <PWD=/Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: env 18: <OLDPWD=/Users/Neftali/Desktop/sofware>
+Tue May 17 21:53:33 2022: env 19: <ZSH=/Users/Neftali/.oh-my-zsh>
+Tue May 17 21:53:33 2022: env 20: <PAGER=less>
+Tue May 17 21:53:33 2022: env 21: <LESS=-R>
+Tue May 17 21:53:33 2022: env 22: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Tue May 17 21:53:33 2022: env 23: <SONAR_TOKEN=6bf43a057a1c06ae9db126c2f58e24488ced62c1>
+Tue May 17 21:53:33 2022: env 24: <LC_CTYPE=UTF-8>
+Tue May 17 21:53:33 2022: env 25: <_=/Users/Neftali/Downloads/build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Tue May 17 21:53:33 2022: executing: <g++ -std=c++17 main.cpp -o main>
+Tue May 17 21:53:33 2022: initializing json file
+Tue May 17 21:53:33 2022: process created with pid: 3821
+Tue May 17 21:53:33 2022: parent pid: 3820
+Tue May 17 21:53:33 2022: working directory: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: executable: </Users/Neftali/Downloads/build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Tue May 17 21:53:33 2022: argv[0]: <build-wrapper-macosx-x86>
+Tue May 17 21:53:33 2022: argv[1]: <-c>
+Tue May 17 21:53:33 2022: argv[2]: <>
+Tue May 17 21:53:33 2022: argv[3]: <g++>
+Tue May 17 21:53:33 2022: argv[4]: <-std=c++17>
+Tue May 17 21:53:33 2022: argv[5]: <main.cpp>
+Tue May 17 21:53:33 2022: argv[6]: <-o>
+Tue May 17 21:53:33 2022: argv[7]: <main>
+Tue May 17 21:53:33 2022: skipping process with pid: 3821
+Tue May 17 21:53:33 2022: process created with pid: 3822
+Tue May 17 21:53:33 2022: parent pid: 3821
+Tue May 17 21:53:33 2022: working directory: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: executable: </private/tmp/sonarsource-build-wrapper-cache-501/usr/bin/g++>
+Tue May 17 21:53:33 2022: argv[0]: <g++>
+Tue May 17 21:53:33 2022: argv[1]: <-std=c++17>
+Tue May 17 21:53:33 2022: argv[2]: <main.cpp>
+Tue May 17 21:53:33 2022: argv[3]: <-o>
+Tue May 17 21:53:33 2022: argv[4]: <main>
+Tue May 17 21:53:33 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.l7Oof5>
+Tue May 17 21:53:33 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib>
+Tue May 17 21:53:33 2022: envp[2]: <__CFBundleIdentifier=com.apple.Terminal>
+Tue May 17 21:53:33 2022: envp[3]: <TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/>
+Tue May 17 21:53:33 2022: envp[4]: <XPC_FLAGS=0x0>
+Tue May 17 21:53:33 2022: envp[5]: <LaunchInstanceID=2F21557A-D434-479D-AF49-73960B0BAB93>
+Tue May 17 21:53:33 2022: envp[6]: <TERM=xterm-256color>
+Tue May 17 21:53:33 2022: envp[7]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.JuagQw0et9/Listeners>
+Tue May 17 21:53:33 2022: envp[8]: <SECURITYSESSIONID=186a6>
+Tue May 17 21:53:33 2022: envp[9]: <XPC_SERVICE_NAME=0>
+Tue May 17 21:53:33 2022: envp[10]: <TERM_PROGRAM=Apple_Terminal>
+Tue May 17 21:53:33 2022: envp[11]: <TERM_PROGRAM_VERSION=440>
+Tue May 17 21:53:33 2022: envp[12]: <TERM_SESSION_ID=B777B346-4438-442B-A539-DEC17C8FF178>
+Tue May 17 21:53:33 2022: envp[13]: <SHELL=/bin/zsh>
+Tue May 17 21:53:33 2022: envp[14]: <HOME=/Users/Neftali>
+Tue May 17 21:53:33 2022: envp[15]: <LOGNAME=Neftali>
+Tue May 17 21:53:33 2022: envp[16]: <USER=Neftali>
+Tue May 17 21:53:33 2022: envp[17]: <PATH=/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx/bin:/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx:/Users/Neftali/Downloads/build-wrapper-macosx-x86:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin>
+Tue May 17 21:53:33 2022: envp[18]: <SHLVL=1>
+Tue May 17 21:53:33 2022: envp[19]: <PWD=/Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: envp[20]: <OLDPWD=/Users/Neftali/Desktop/sofware>
+Tue May 17 21:53:33 2022: envp[21]: <ZSH=/Users/Neftali/.oh-my-zsh>
+Tue May 17 21:53:33 2022: envp[22]: <PAGER=less>
+Tue May 17 21:53:33 2022: envp[23]: <LESS=-R>
+Tue May 17 21:53:33 2022: envp[24]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Tue May 17 21:53:33 2022: envp[25]: <SONAR_TOKEN=6bf43a057a1c06ae9db126c2f58e24488ced62c1>
+Tue May 17 21:53:33 2022: envp[26]: <LC_CTYPE=UTF-8>
+Tue May 17 21:53:33 2022: envp[27]: <_=/Users/Neftali/Downloads/build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Tue May 17 21:53:33 2022: envp[28]: <DYLD_INSERT_LIBRARIES=>
+Tue May 17 21:53:33 2022: process created with pid: 3822
+Tue May 17 21:53:33 2022: parent pid: 3821
+Tue May 17 21:53:33 2022: working directory: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: executable: </Library/Developer/CommandLineTools/usr/bin/gcc>
+Tue May 17 21:53:33 2022: argv[0]: </Library/Developer/CommandLineTools/usr/bin/g++>
+Tue May 17 21:53:33 2022: argv[1]: <-std=c++17>
+Tue May 17 21:53:33 2022: argv[2]: <main.cpp>
+Tue May 17 21:53:33 2022: argv[3]: <-o>
+Tue May 17 21:53:33 2022: argv[4]: <main>
+Tue May 17 21:53:33 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.l7Oof5>
+Tue May 17 21:53:33 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib>
+Tue May 17 21:53:33 2022: envp[2]: <__CFBundleIdentifier=com.apple.Terminal>
+Tue May 17 21:53:33 2022: envp[3]: <TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/>
+Tue May 17 21:53:33 2022: envp[4]: <XPC_FLAGS=0x0>
+Tue May 17 21:53:33 2022: envp[5]: <LaunchInstanceID=2F21557A-D434-479D-AF49-73960B0BAB93>
+Tue May 17 21:53:33 2022: envp[6]: <TERM=xterm-256color>
+Tue May 17 21:53:33 2022: envp[7]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.JuagQw0et9/Listeners>
+Tue May 17 21:53:33 2022: envp[8]: <SECURITYSESSIONID=186a6>
+Tue May 17 21:53:33 2022: envp[9]: <XPC_SERVICE_NAME=0>
+Tue May 17 21:53:33 2022: envp[10]: <TERM_PROGRAM=Apple_Terminal>
+Tue May 17 21:53:33 2022: envp[11]: <TERM_PROGRAM_VERSION=440>
+Tue May 17 21:53:33 2022: envp[12]: <TERM_SESSION_ID=B777B346-4438-442B-A539-DEC17C8FF178>
+Tue May 17 21:53:33 2022: envp[13]: <SHELL=/bin/zsh>
+Tue May 17 21:53:33 2022: envp[14]: <HOME=/Users/Neftali>
+Tue May 17 21:53:33 2022: envp[15]: <LOGNAME=Neftali>
+Tue May 17 21:53:33 2022: envp[16]: <USER=Neftali>
+Tue May 17 21:53:33 2022: envp[17]: <PATH=/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx/bin:/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx:/Users/Neftali/Downloads/build-wrapper-macosx-x86:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin>
+Tue May 17 21:53:33 2022: envp[18]: <SHLVL=1>
+Tue May 17 21:53:33 2022: envp[19]: <PWD=/Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: envp[20]: <OLDPWD=/Users/Neftali/Desktop/sofware>
+Tue May 17 21:53:33 2022: envp[21]: <ZSH=/Users/Neftali/.oh-my-zsh>
+Tue May 17 21:53:33 2022: envp[22]: <PAGER=less>
+Tue May 17 21:53:33 2022: envp[23]: <LESS=-R>
+Tue May 17 21:53:33 2022: envp[24]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Tue May 17 21:53:33 2022: envp[25]: <SONAR_TOKEN=6bf43a057a1c06ae9db126c2f58e24488ced62c1>
+Tue May 17 21:53:33 2022: envp[26]: <LC_CTYPE=UTF-8>
+Tue May 17 21:53:33 2022: envp[27]: <_=/Users/Neftali/Downloads/build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Tue May 17 21:53:33 2022: envp[28]: <__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x56>
+Tue May 17 21:53:33 2022: envp[29]: <SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Tue May 17 21:53:33 2022: envp[30]: <CPATH=/usr/local/include>
+Tue May 17 21:53:33 2022: envp[31]: <LIBRARY_PATH=/usr/local/lib>
+Tue May 17 21:53:33 2022: envp[32]: <DYLD_INSERT_LIBRARIES=>
+Tue May 17 21:53:33 2022: process created with pid: 3822
+Tue May 17 21:53:33 2022: parent pid: 3821
+Tue May 17 21:53:33 2022: working directory: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: executable: </private/tmp/sonarsource-build-wrapper-cache-501/usr/bin/xcrun>
+Tue May 17 21:53:33 2022: argv[0]: </usr/bin/xcrun>
+Tue May 17 21:53:33 2022: argv[1]: <clang++>
+Tue May 17 21:53:33 2022: argv[2]: <-std=c++17>
+Tue May 17 21:53:33 2022: argv[3]: <main.cpp>
+Tue May 17 21:53:33 2022: argv[4]: <-o>
+Tue May 17 21:53:33 2022: argv[5]: <main>
+Tue May 17 21:53:33 2022: skipping process with pid: 3822
+Tue May 17 21:53:33 2022: process created with pid: 3822
+Tue May 17 21:53:33 2022: parent pid: 3821
+Tue May 17 21:53:33 2022: working directory: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: executable: </Library/Developer/CommandLineTools/usr/bin/clang>
+Tue May 17 21:53:33 2022: argv[0]: </Library/Developer/CommandLineTools/usr/bin/clang++>
+Tue May 17 21:53:33 2022: argv[1]: <-std=c++17>
+Tue May 17 21:53:33 2022: argv[2]: <main.cpp>
+Tue May 17 21:53:33 2022: argv[3]: <-o>
+Tue May 17 21:53:33 2022: argv[4]: <main>
+Tue May 17 21:53:33 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.l7Oof5>
+Tue May 17 21:53:33 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib>
+Tue May 17 21:53:33 2022: envp[2]: <__CFBundleIdentifier=com.apple.Terminal>
+Tue May 17 21:53:33 2022: envp[3]: <TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/>
+Tue May 17 21:53:33 2022: envp[4]: <XPC_FLAGS=0x0>
+Tue May 17 21:53:33 2022: envp[5]: <LaunchInstanceID=2F21557A-D434-479D-AF49-73960B0BAB93>
+Tue May 17 21:53:33 2022: envp[6]: <TERM=xterm-256color>
+Tue May 17 21:53:33 2022: envp[7]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.JuagQw0et9/Listeners>
+Tue May 17 21:53:33 2022: envp[8]: <SECURITYSESSIONID=186a6>
+Tue May 17 21:53:33 2022: envp[9]: <XPC_SERVICE_NAME=0>
+Tue May 17 21:53:33 2022: envp[10]: <TERM_PROGRAM=Apple_Terminal>
+Tue May 17 21:53:33 2022: envp[11]: <TERM_PROGRAM_VERSION=440>
+Tue May 17 21:53:33 2022: envp[12]: <TERM_SESSION_ID=B777B346-4438-442B-A539-DEC17C8FF178>
+Tue May 17 21:53:33 2022: envp[13]: <SHELL=/bin/zsh>
+Tue May 17 21:53:33 2022: envp[14]: <HOME=/Users/Neftali>
+Tue May 17 21:53:33 2022: envp[15]: <LOGNAME=Neftali>
+Tue May 17 21:53:33 2022: envp[16]: <USER=Neftali>
+Tue May 17 21:53:33 2022: envp[17]: <PATH=/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx/bin:/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx:/Users/Neftali/Downloads/build-wrapper-macosx-x86:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin>
+Tue May 17 21:53:33 2022: envp[18]: <SHLVL=1>
+Tue May 17 21:53:33 2022: envp[19]: <PWD=/Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: envp[20]: <OLDPWD=/Users/Neftali/Desktop/sofware>
+Tue May 17 21:53:33 2022: envp[21]: <ZSH=/Users/Neftali/.oh-my-zsh>
+Tue May 17 21:53:33 2022: envp[22]: <PAGER=less>
+Tue May 17 21:53:33 2022: envp[23]: <LESS=-R>
+Tue May 17 21:53:33 2022: envp[24]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Tue May 17 21:53:33 2022: envp[25]: <SONAR_TOKEN=6bf43a057a1c06ae9db126c2f58e24488ced62c1>
+Tue May 17 21:53:33 2022: envp[26]: <LC_CTYPE=UTF-8>
+Tue May 17 21:53:33 2022: envp[27]: <_=/Users/Neftali/Downloads/build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Tue May 17 21:53:33 2022: envp[28]: <__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x56>
+Tue May 17 21:53:33 2022: envp[29]: <SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Tue May 17 21:53:33 2022: envp[30]: <CPATH=/usr/local/include>
+Tue May 17 21:53:33 2022: envp[31]: <LIBRARY_PATH=/usr/local/lib>
+Tue May 17 21:53:33 2022: envp[32]: <DYLD_INSERT_LIBRARIES=>
+Tue May 17 21:53:33 2022: process created with pid: 3823
+Tue May 17 21:53:33 2022: parent pid: 3822
+Tue May 17 21:53:33 2022: working directory: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: executable: </Library/Developer/CommandLineTools/usr/bin/clang>
+Tue May 17 21:53:33 2022: argv[0]: </Library/Developer/CommandLineTools/usr/bin/clang>
+Tue May 17 21:53:33 2022: argv[1]: <-cc1>
+Tue May 17 21:53:33 2022: argv[2]: <-triple>
+Tue May 17 21:53:33 2022: argv[3]: <x86_64-apple-macosx11.0.0>
+Tue May 17 21:53:33 2022: argv[4]: <-Wdeprecated-objc-isa-usage>
+Tue May 17 21:53:33 2022: argv[5]: <-Werror=deprecated-objc-isa-usage>
+Tue May 17 21:53:33 2022: argv[6]: <-Werror=implicit-function-declaration>
+Tue May 17 21:53:33 2022: argv[7]: <-emit-obj>
+Tue May 17 21:53:33 2022: argv[8]: <-mrelax-all>
+Tue May 17 21:53:33 2022: argv[9]: <-disable-free>
+Tue May 17 21:53:33 2022: argv[10]: <-disable-llvm-verifier>
+Tue May 17 21:53:33 2022: argv[11]: <-discard-value-names>
+Tue May 17 21:53:33 2022: argv[12]: <-main-file-name>
+Tue May 17 21:53:33 2022: argv[13]: <main.cpp>
+Tue May 17 21:53:33 2022: argv[14]: <-mrelocation-model>
+Tue May 17 21:53:33 2022: argv[15]: <pic>
+Tue May 17 21:53:33 2022: argv[16]: <-pic-level>
+Tue May 17 21:53:33 2022: argv[17]: <2>
+Tue May 17 21:53:33 2022: argv[18]: <-mframe-pointer=all>
+Tue May 17 21:53:33 2022: argv[19]: <-fno-strict-return>
+Tue May 17 21:53:33 2022: argv[20]: <-fno-rounding-math>
+Tue May 17 21:53:33 2022: argv[21]: <-munwind-tables>
+Tue May 17 21:53:33 2022: argv[22]: <-target-sdk-version=11.3>
+Tue May 17 21:53:33 2022: argv[23]: <-fvisibility-inlines-hidden-static-local-var>
+Tue May 17 21:53:33 2022: argv[24]: <-target-cpu>
+Tue May 17 21:53:33 2022: argv[25]: <penryn>
+Tue May 17 21:53:33 2022: argv[26]: <-debugger-tuning=lldb>
+Tue May 17 21:53:33 2022: argv[27]: <-target-linker-version>
+Tue May 17 21:53:33 2022: argv[28]: <650.9>
+Tue May 17 21:53:33 2022: argv[29]: <-resource-dir>
+Tue May 17 21:53:33 2022: argv[30]: </Library/Developer/CommandLineTools/usr/lib/clang/12.0.5>
+Tue May 17 21:53:33 2022: argv[31]: <-isysroot>
+Tue May 17 21:53:33 2022: argv[32]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Tue May 17 21:53:33 2022: argv[33]: <-I/usr/local/include>
+Tue May 17 21:53:33 2022: argv[34]: <-stdlib=libc++>
+Tue May 17 21:53:33 2022: argv[35]: <-internal-isystem>
+Tue May 17 21:53:33 2022: argv[36]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1>
+Tue May 17 21:53:33 2022: argv[37]: <-internal-isystem>
+Tue May 17 21:53:33 2022: argv[38]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include>
+Tue May 17 21:53:33 2022: argv[39]: <-internal-isystem>
+Tue May 17 21:53:33 2022: argv[40]: </Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include>
+Tue May 17 21:53:33 2022: argv[41]: <-internal-externc-isystem>
+Tue May 17 21:53:33 2022: argv[42]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include>
+Tue May 17 21:53:33 2022: argv[43]: <-internal-externc-isystem>
+Tue May 17 21:53:33 2022: argv[44]: </Library/Developer/CommandLineTools/usr/include>
+Tue May 17 21:53:33 2022: argv[45]: <-Wno-reorder-init-list>
+Tue May 17 21:53:33 2022: argv[46]: <-Wno-implicit-int-float-conversion>
+Tue May 17 21:53:33 2022: argv[47]: <-Wno-c99-designator>
+Tue May 17 21:53:33 2022: argv[48]: <-Wno-final-dtor-non-final-class>
+Tue May 17 21:53:33 2022: argv[49]: <-Wno-extra-semi-stmt>
+Tue May 17 21:53:33 2022: argv[50]: <-Wno-misleading-indentation>
+Tue May 17 21:53:33 2022: argv[51]: <-Wno-quoted-include-in-framework-header>
+Tue May 17 21:53:33 2022: argv[52]: <-Wno-implicit-fallthrough>
+Tue May 17 21:53:33 2022: argv[53]: <-Wno-enum-enum-conversion>
+Tue May 17 21:53:33 2022: argv[54]: <-Wno-enum-float-conversion>
+Tue May 17 21:53:33 2022: argv[55]: <-Wno-elaborated-enum-base>
+Tue May 17 21:53:33 2022: argv[56]: <-std=c++17>
+Tue May 17 21:53:33 2022: argv[57]: <-fdeprecated-macro>
+Tue May 17 21:53:33 2022: argv[58]: <-fdebug-compilation-dir>
+Tue May 17 21:53:33 2022: argv[59]: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: argv[60]: <-ferror-limit>
+Tue May 17 21:53:33 2022: argv[61]: <19>
+Tue May 17 21:53:33 2022: argv[62]: <-stack-protector>
+Tue May 17 21:53:33 2022: argv[63]: <1>
+Tue May 17 21:53:33 2022: argv[64]: <-fstack-check>
+Tue May 17 21:53:33 2022: argv[65]: <-mdarwin-stkchk-strong-link>
+Tue May 17 21:53:33 2022: argv[66]: <-fblocks>
+Tue May 17 21:53:33 2022: argv[67]: <-fencode-extended-block-signature>
+Tue May 17 21:53:33 2022: argv[68]: <-fregister-global-dtors-with-atexit>
+Tue May 17 21:53:33 2022: argv[69]: <-fgnuc-version=4.2.1>
+Tue May 17 21:53:33 2022: argv[70]: <-fcxx-exceptions>
+Tue May 17 21:53:33 2022: argv[71]: <-fexceptions>
+Tue May 17 21:53:33 2022: argv[72]: <-fmax-type-align=16>
+Tue May 17 21:53:33 2022: argv[73]: <-fcommon>
+Tue May 17 21:53:33 2022: argv[74]: <-fcolor-diagnostics>
+Tue May 17 21:53:33 2022: argv[75]: <-clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation>
+Tue May 17 21:53:33 2022: argv[76]: <-fno-odr-hash-protocols>
+Tue May 17 21:53:33 2022: argv[77]: <-mllvm>
+Tue May 17 21:53:33 2022: argv[78]: <-disable-aligned-alloc-awareness=1>
+Tue May 17 21:53:33 2022: argv[79]: <-o>
+Tue May 17 21:53:33 2022: argv[80]: </var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/main-73728a.o>
+Tue May 17 21:53:33 2022: argv[81]: <-x>
+Tue May 17 21:53:33 2022: argv[82]: <c++>
+Tue May 17 21:53:33 2022: argv[83]: <main.cpp>
+Tue May 17 21:53:33 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.l7Oof5>
+Tue May 17 21:53:33 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib>
+Tue May 17 21:53:33 2022: envp[2]: <__CFBundleIdentifier=com.apple.Terminal>
+Tue May 17 21:53:33 2022: envp[3]: <TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/>
+Tue May 17 21:53:33 2022: envp[4]: <XPC_FLAGS=0x0>
+Tue May 17 21:53:33 2022: envp[5]: <LaunchInstanceID=2F21557A-D434-479D-AF49-73960B0BAB93>
+Tue May 17 21:53:33 2022: envp[6]: <TERM=xterm-256color>
+Tue May 17 21:53:33 2022: envp[7]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.JuagQw0et9/Listeners>
+Tue May 17 21:53:33 2022: envp[8]: <SECURITYSESSIONID=186a6>
+Tue May 17 21:53:33 2022: envp[9]: <XPC_SERVICE_NAME=0>
+Tue May 17 21:53:33 2022: envp[10]: <TERM_PROGRAM=Apple_Terminal>
+Tue May 17 21:53:33 2022: envp[11]: <TERM_PROGRAM_VERSION=440>
+Tue May 17 21:53:33 2022: envp[12]: <TERM_SESSION_ID=B777B346-4438-442B-A539-DEC17C8FF178>
+Tue May 17 21:53:33 2022: envp[13]: <SHELL=/bin/zsh>
+Tue May 17 21:53:33 2022: envp[14]: <HOME=/Users/Neftali>
+Tue May 17 21:53:33 2022: envp[15]: <LOGNAME=Neftali>
+Tue May 17 21:53:33 2022: envp[16]: <USER=Neftali>
+Tue May 17 21:53:33 2022: envp[17]: <PATH=/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx/bin:/Users/Neftali/Downloads/sonar-scanner-4.7.0.2747-macosx:/Users/Neftali/Downloads/build-wrapper-macosx-x86:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin>
+Tue May 17 21:53:33 2022: envp[18]: <SHLVL=1>
+Tue May 17 21:53:33 2022: envp[19]: <PWD=/Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:33 2022: envp[20]: <OLDPWD=/Users/Neftali/Desktop/sofware>
+Tue May 17 21:53:33 2022: envp[21]: <ZSH=/Users/Neftali/.oh-my-zsh>
+Tue May 17 21:53:33 2022: envp[22]: <PAGER=less>
+Tue May 17 21:53:33 2022: envp[23]: <LESS=-R>
+Tue May 17 21:53:33 2022: envp[24]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Tue May 17 21:53:33 2022: envp[25]: <SONAR_TOKEN=6bf43a057a1c06ae9db126c2f58e24488ced62c1>
+Tue May 17 21:53:33 2022: envp[26]: <LC_CTYPE=UTF-8>
+Tue May 17 21:53:33 2022: envp[27]: <_=/Users/Neftali/Downloads/build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Tue May 17 21:53:33 2022: envp[28]: <__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x56>
+Tue May 17 21:53:33 2022: envp[29]: <SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Tue May 17 21:53:33 2022: envp[30]: <CPATH=/usr/local/include>
+Tue May 17 21:53:33 2022: envp[31]: <LIBRARY_PATH=/usr/local/lib>
+Tue May 17 21:53:33 2022: envp[32]: <DYLD_INSERT_LIBRARIES=>
+Tue May 17 21:53:34 2022: process created with pid: 3824
+Tue May 17 21:53:34 2022: parent pid: 3822
+Tue May 17 21:53:34 2022: working directory: </Users/Neftali/Desktop/sofware/Observer_Pattern>
+Tue May 17 21:53:34 2022: executable: </Library/Developer/CommandLineTools/usr/bin/ld>
+Tue May 17 21:53:34 2022: argv[0]: </Library/Developer/CommandLineTools/usr/bin/ld>
+Tue May 17 21:53:34 2022: argv[1]: <-demangle>
+Tue May 17 21:53:34 2022: argv[2]: <-lto_library>
+Tue May 17 21:53:34 2022: argv[3]: </Library/Developer/CommandLineTools/usr/lib/libLTO.dylib>
+Tue May 17 21:53:34 2022: argv[4]: <-no_deduplicate>
+Tue May 17 21:53:34 2022: argv[5]: <-dynamic>
+Tue May 17 21:53:34 2022: argv[6]: <-arch>
+Tue May 17 21:53:34 2022: argv[7]: <x86_64>
+Tue May 17 21:53:34 2022: argv[8]: <-platform_version>
+Tue May 17 21:53:34 2022: argv[9]: <macos>
+Tue May 17 21:53:34 2022: argv[10]: <11.0.0>
+Tue May 17 21:53:34 2022: argv[11]: <11.3>
+Tue May 17 21:53:34 2022: argv[12]: <-syslibroot>
+Tue May 17 21:53:34 2022: argv[13]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Tue May 17 21:53:34 2022: argv[14]: <-o>
+Tue May 17 21:53:34 2022: argv[15]: <main>
+Tue May 17 21:53:34 2022: argv[16]: <-L/usr/local/lib>
+Tue May 17 21:53:34 2022: argv[17]: </var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/main-73728a.o>
+Tue May 17 21:53:34 2022: argv[18]: <-lc++>
+Tue May 17 21:53:34 2022: argv[19]: <-lSystem>
+Tue May 17 21:53:34 2022: argv[20]: </Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a>
+Tue May 17 21:53:34 2022: skipping process with pid: 3824
+Tue May 17 21:53:34 2022: finalizing json file
+Tue May 17 21:53:34 2022: returned with code: 0
