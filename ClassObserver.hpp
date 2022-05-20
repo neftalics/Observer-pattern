@@ -8,7 +8,7 @@ class Observer
 { 
 public:
     virtual ~Observer() = default;
-    virtual void Update(Subject&) = 0;
+    virtual void update(Subject&) = 0;
 };
 
 class Subject 
@@ -23,7 +23,7 @@ public:
      void Notify()
      {
          for (auto* o : observers) {
-             o->Update(*this);
+             o->update(*this);
          }
      }
 private:

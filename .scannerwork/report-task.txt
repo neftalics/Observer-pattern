@@ -3,5 +3,5 @@ projectKey=neftalics_Observer-pattern
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.29017
 dashboardUrl=https://sonarcloud.io/dashboard?id=neftalics_Observer-pattern
-ceTaskId=AYDVFm51nm_mkLK9MfSE
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYDVFm51nm_mkLK9MfSE
+ceTaskId=AYDeX-y5uoE8pzodcBI7
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYDeX-y5uoE8pzodcBI7

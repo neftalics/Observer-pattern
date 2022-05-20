@@ -8,12 +8,12 @@ private:
     int pressure;
 
 public:
-    WeatherStation(){}
-    void SetVars(int humidity, int temperature, int pressure)
+    WeatherStation() = default;
+    void SetVars(int humidity_, int temperature_, int pressure_)
     {
-        this->humidity = humidity; 
-        this->temperature = temperature;
-        this->pressure = pressure;
+        this->humidity = humidity_; 
+        this->temperature = temperature_;
+        this->pressure = pressure_;
 
         Notify(); 
     }
@@ -30,7 +30,7 @@ class Forecast: public Observer
 public: 
     Forecast(WeatherStation& s) : subject(s) { subject.Attach(*this); }
     ~Forecast() { subject.Detach(*this); }
-    void Update(Subject& theChangedSubject) override
+    void update(Subject& theChangedSubject) override
     {
         if (&theChangedSubject == &subject) {
              Draw();
@@ -57,7 +57,7 @@ class Current: public Observer
 public: 
     Current(WeatherStation& s) : subject(s) { subject.Attach(*this); }
     ~Current() { subject.Detach(*this); }
-    void Update(Subject& theChangedSubject) override
+    void update(Subject& theChangedSubject) override
     {
         if (&theChangedSubject == &subject) {
             Draw();
@@ -83,7 +83,7 @@ class Stadistics: public Observer
 public: 
     Stadistics(WeatherStation& s) : subject(s) { subject.Attach(*this); }
     ~Stadistics() { subject.Detach(*this); }
-    void Update(Subject& theChangedSubject) override
+    void update(Subject& theChangedSubject) override
     {
         if (&theChangedSubject == &subject) {
             Draw();
