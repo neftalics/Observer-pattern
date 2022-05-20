@@ -19,7 +19,7 @@
 "-o",
 "main"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.uvviuy",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.CvgwpM",
 "SQ_WRAPPER_LIBRARY=/Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib",
 "TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/",
 "__CFBundleIdentifier=com.apple.Terminal",
@@ -57,7 +57,7 @@
 "-o",
 "main"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.uvviuy",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.CvgwpM",
 "SQ_WRAPPER_LIBRARY=/Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib",
 "TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/",
 "__CFBundleIdentifier=com.apple.Terminal",
@@ -99,7 +99,7 @@
 "-o",
 "main"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.uvviuy",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.CvgwpM",
 "SQ_WRAPPER_LIBRARY=/Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib",
 "TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/",
 "__CFBundleIdentifier=com.apple.Terminal",
@@ -215,12 +215,12 @@
 "-mllvm",
 "-disable-aligned-alloc-awareness=1",
 "-o",
-"/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/main-82f66b.o",
+"/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/main-1a33e0.o",
 "-x",
 "c++",
 "main.cpp"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.uvviuy",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.CvgwpM",
 "SQ_WRAPPER_LIBRARY=/Users/Neftali/Downloads/build-wrapper-macosx-x86/libinterceptor.dylib",
 "TMPDIR=/var/folders/9c/924rf76x2tjgyxjhvv3h6zvr0000gn/T/",
 "__CFBundleIdentifier=com.apple.Terminal",

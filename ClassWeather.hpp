@@ -28,8 +28,8 @@ public:
 class Forecast: public Observer 
 { 
 public: 
-    Forecast(WeatherStation& s) : subject(s) { subject.Attach(*this); }
-    ~Forecast() { subject.Detach(*this); }
+    explicit Forecast(WeatherStation& s) : subject(s) { subject.Attach(*this); }
+    ~Forecast() final { subject.Detach(*this); }
     void update(Subject& theChangedSubject) override
     {
         if (&theChangedSubject == &subject) {
@@ -37,7 +37,7 @@ public:
         }
     }
 
-    void Draw()
+    void Draw() const
     {
         int humidity = subject.Gethumidity(); 
         int temperature = subject.Gettemperature(); 
@@ -55,15 +55,15 @@ private:
 class Current: public Observer 
 { 
 public: 
-    Current(WeatherStation& s) : subject(s) { subject.Attach(*this); }
-    ~Current() { subject.Detach(*this); }
+    explicit Current(WeatherStation& s) : subject(s) { subject.Attach(*this); }
+    ~Current() final { subject.Detach(*this); }
     void update(Subject& theChangedSubject) override
     {
         if (&theChangedSubject == &subject) {
             Draw();
         }
     }
-    void Draw()
+    void Draw() const
     {
         int humidity = subject.Gethumidity(); 
         int temperature = subject.Gettemperature(); 
@@ -81,15 +81,15 @@ private:
 class Stadistics: public Observer 
 { 
 public: 
-    Stadistics(WeatherStation& s) : subject(s) { subject.Attach(*this); }
-    ~Stadistics() { subject.Detach(*this); }
+    explicit Stadistics(WeatherStation& s) : subject(s) { subject.Attach(*this); }
+    ~Stadistics() final { subject.Detach(*this); }
     void update(Subject& theChangedSubject) override
     {
         if (&theChangedSubject == &subject) {
             Draw();
         }
     }
-    void Draw()
+    void Draw() const
     {
         int humidity = subject.Gethumidity(); 
         int temperature = subject.Gettemperature(); 
