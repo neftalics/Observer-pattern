@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <algorithm>
+
 
 class Subject; 
 
@@ -19,7 +19,7 @@ public:
      void Attach(Observer& o) { observers.push_back(&o); }
      void Detach(Observer& o)
      {
-         observers.erase(std::ranges::remove(observers.begin(), observers.end(), &o));
+         observers.erase(std::remove(observers.begin(), observers.end(), &o));
      }
      void Notify()
      {
